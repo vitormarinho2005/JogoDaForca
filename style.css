@@ -1,0 +1,82 @@
+* {
+    border: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tituloPag {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    width: fit-content;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 30px;
+    gap: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, .2);
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input {
+    border: 2px solid #ddd;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btInicia {
+    background-color: rgb(75, 173, 190);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#btVerifica {
+    background-color: rgb(49, 209, 115);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#painel {
+    font-size: 30px;
+
+}
+
+#erradas {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+.desenho {
+    display: flex;
+    align-items: center;
+}
+
+#reset {
+    background-color: rgb(49, 177, 209);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
